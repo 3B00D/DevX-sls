@@ -7,7 +7,7 @@ phases:
       nodejs: 12
   build:
     commands:
-      - npm run start
+      - npm run test
   post_build:
     commands:
       - echo Build completed on `date`
